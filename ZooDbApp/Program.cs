@@ -1,5 +1,3 @@
-using ZooDbApp;
-
 namespace ZooMenuApp
 {
     internal static class Program

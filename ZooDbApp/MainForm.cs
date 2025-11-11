@@ -81,10 +81,10 @@ namespace ZooMenuApp
             // Меню "Звіти та Запити"
             ToolStripMenuItem reportsMenu = new ToolStripMenuItem("📊 Звіти та Запити");
 
-            /*reportsMenu.DropDownItems.Add(CreateMenuItem("SQL Запити",
+            reportsMenu.DropDownItems.Add(CreateMenuItem("SQL Запити",
                 (s, e) => OpenForm(new FormQueries())));
 
-            menuStrip.Items.Add(reportsMenu);*/
+            menuStrip.Items.Add(reportsMenu);
 
             // Меню "Про програму"
             ToolStripMenuItem aboutMenu = new ToolStripMenuItem("ℹ️ Про програму");
@@ -151,7 +151,7 @@ namespace ZooMenuApp
                 ("🍖 Корми", typeof(FormFeedTypes)),
                 ("📅 Графік", typeof(FormFeedingSchedule)),
                 ("📦 Склад", typeof(FormFeedStock)),
-                //("📊 Запити", typeof(FormQueries))
+                ("📊 Запити", typeof(FormQueries))
             };
 
             int col = 0;
